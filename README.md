@@ -1,18 +1,15 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Call Function Specify Parameter Name Demo
+====================================================
+
+以下功能没有实现：
+
+```
+hello(name2 = 'typescript');
+```
+
+看来目前只能使用json形式的解构。
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
